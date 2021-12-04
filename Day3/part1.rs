@@ -15,7 +15,7 @@ fn main() {
         for el1 in 0..(c[0].len()){
 
             //länge aller Zeilen
-            //Geht durch den el1 position durch alle Zeilen und schaut mit count ob es mehr 1er gibt als 0er
+            //Geht durch den el1 position durch alle Zeilen und schaut ob es mehr 1er gibt als 0er, in count gespeichert
             for el2 in 0..c.len(){
 
                 let f: String = c[el2].chars().nth(el1).unwrap().to_string(); //el1 index von el2 Zeile
